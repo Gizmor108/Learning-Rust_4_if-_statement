@@ -5,9 +5,9 @@ fn main() {
 
 pub fn absolute_value(x: i32) -> i32 {
 	let ans = if x < 0 {
-		x
+		x * -1
     } else {
-		0
+		x
 	};
 	ans
 } 
